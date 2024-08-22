@@ -1,0 +1,10 @@
+/* all text attributes*/
+p{
+    text-align: justify;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
