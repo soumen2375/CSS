@@ -1,0 +1,17 @@
+h2{
+    color:orange;
+}
+
+p{
+   color:#000;
+   background-color:rgb(255,255,255); 
+}
+
+button{
+    color:white;
+    background-color: blue;
+}
+body{
+    color:red;
+
+}

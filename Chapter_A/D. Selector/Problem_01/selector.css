@@ -1,0 +1,40 @@
+/* Universal Selector "*" */
+*{
+    font-family:Times New Roman;
+}
+
+
+/* Element Selector */
+h3{
+    color: rgb(229, 18, 18);
+}
+
+
+/* Id Selector */
+#login, #signup{
+    color: white;
+
+}
+
+
+/* Class Selector */
+.follow{
+    color: red;
+}
+
+
+/* Div Selector */
+div button{
+    background-color: red;
+}
+div h1{
+    color: red;
+}
+
+
+/* Desecndant Selector */
+span button{
+    color: rgb(7, 88, 143);
+    background-color: #35eb1d;
+}
+
