@@ -1,0 +1,61 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px;
+}
+
+/*1.  Alpha Opacity */
+#alpha_opacity {
+    /* (Red, Green, Blue, Aplha_Opacity) */
+    background-color: rgba(173, 255, 47, 0.8);
+    /* Here only color opacity effected */
+}
+
+
+/*2. Opacity */
+#opacity {
+    /* (Red, Green, Blue, Opacity) */
+    background-color: rgba(173, 255, 47, 0.5);
+    /* Here whole element opacity effected */
+}
+
+
+/*3. Transitions */
+#transitions {
+    background-color: rgb(173, 255, 47);
+    transition: 5s;
+}
+
+#transitions:hover {
+    border-radius: 60px;
+    background-color: orange;
+    transition: 5s;
+}
+
+
+/*4. Transform  */
+.transform {
+    width: 100px;
+    height: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: greenyellow;
+}
+
+#transform1{
+    transform: rotate(180deg);
+}
+#transform2{
+    /* manage height, weight(decrease & increase) along (x, y) axis*/
+    transform: scale(0.5, 2);
+}
+#transform3{
+    /* direction sets along (x, y) axis */
+    transform: translate(-60px, 50px);
+}
+#transform4{
+    /* sets skewness*/
+    transform: skew(30deg);
+}
