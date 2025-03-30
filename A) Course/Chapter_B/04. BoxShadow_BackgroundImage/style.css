@@ -1,0 +1,36 @@
+/* 1. Background image  */
+#bg_image{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+    border-radius: 10px;
+
+    /* Background image set */
+    background-image: url("image2.png");
+    background-size:cover;
+}
+
+
+/* 2. Box Shadow */
+#box_shadow{
+    width: 250px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 65px;
+    
+    background-image: url("image.png");
+    background-size: contain;
+
+    /* (x-offset y-offset blur_radius color) */
+    box-shadow: 3px 2px 15px #4F959D;
+}
+h2{
+    text-align: center;
+    color: green ;
+}
+
+
+
